@@ -1,0 +1,24 @@
+ol {
+	width: 1000px;
+	border: 1px solid red;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	justify-content: space-between;
+}
+li {
+	width: 200px;
+	border: 1px solid black;
+}
+ol,li {
+	list-style: none;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}

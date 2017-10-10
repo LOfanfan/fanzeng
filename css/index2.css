@@ -1,0 +1,16 @@
+ol {
+	width: 1000px;
+	border: 1px solid red;
+}
+li {
+	width: 200px;
+	border: 1px solid black;
+	display: inline-block;
+}
+ol,li {
+	list-style: none;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
